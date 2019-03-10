@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Example</title>
+  <script type="text/javascript" src="js/Videos.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="js/Youtube.js" charset="UTF-8"></script>
+  <script type="text/javascript" src="js/Play.js" charset="UTF-8"></script>
+  
+  <script>
+var youtubeAccount = null;
+</script>
+  
+</head>
+<body onload="cargarDatosIniciales();">
+
+	
+	<header>
+		<h1>Example </h1>
+	</header>
+	<nav>
+		<h1> Esto es una prueba en el nav </h1>
+	</nav>
+	
+	<main>
+	</main>
+	<div>
+	<form>
+		<p>Nombre Video: <input type=text id="nombre" /></p>
+		<p>Youtuber: <input type=text id="youtub" /></p>
+		<p>Genero: 
+			<select id="genere">
+				<option value="">  </option>
+				<option value="1">Entretenimiento</option>
+				<option value="2">Comedia</option>
+				<option value="3">Gameplay</option>
+				<option value="4">Aprendizaje</option>
+				<option value="5">Reportaje</option>
+				<option value="6">Bromas</option>
+			</select>
+			<p>Duracion: <input type=text id="duration" /></p>
+		</p>
+		
+		
+		<input type=button value="Guardar!" onclick="guardar();" />
+	</form>
+	</div>
+	<div id="vidi"> 
+	</div>
+	<section>
+  
+	</section>
+	<aside>
+	</aside>
+
+	<footer>
+		<h3> foooter </h3>
+	</footer>
+
+</body>
+</html>
